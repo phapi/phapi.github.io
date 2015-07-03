@@ -1,0 +1,108 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.container.header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.docs-header,
+.firstpage-header {
+  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.3);
+  color: #fff;
+  background-image: linear-gradient(to bottom,#247871 0,#74AE95 100%);
+  font-size: 24px;
+  border-bottom: 1px solid rgb(36, 120, 113);
+  border-top: 1px solid rgb(119, 181, 176);
+}
+
+.firstpage-header {
+  text-align: center;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.docs-header h1,
+.firstpage-header h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.docs-header p,
+.firstpage-header p {
+  font-weight: 300;
+  margin-right: 350px;
+  margin-bottom: 0px;
+}
+
+.firstpage-header p {
+  margin-right: 0px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border: 0px;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: bold;
+  color: #247871;
+}
+
+.navbar .nav .active a {
+  background-color: #f7f7f7;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav .active a:hover {
+  color: #247871;
+  background-color: #fff;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.firstpage-header a {
+  color: #fff;
+  font-size: 20px;
+}
+
+a {
+  color: #0F5FB2;
+}
+
+ul .list-unstyled {
+  margin-bottom: 20px;
+}
+
+nav.doc-sidebar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  border-right: 1px solid #f0f2f1;
+}
+
+nav.doc-sidebar h4 {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+div.highlight {
+  margin-bottom: 20px;
+}
+
+div.footer {
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 30px;
+  text-align: center;
+  color: #aaa;
+}

@@ -1,0 +1,9 @@
+# Site settings
+title: Phapi Framework
+description: "Phapi is a PHP based framework aiming at rapid and simplified API development as well as focusing at performance and keeping the code base small and simple."
+baseurl: ""
+url: "http://phapi.github.io"
+
+timezone: Europe/Stockholm
+markdown: redcarpet
+highlighter: none
