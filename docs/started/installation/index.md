@@ -22,6 +22,7 @@ There is one dependencies with the basic configuration.
 There are however features and middleware that do have some dependencies. A list of these dependencies can be found here:
 
 - [phapi/cache-memcache](https://github.com/phapi/cache-memcache) requires the [Memcache](http://php.net/manual/en/book.memcache.php) extension to be installed and working.
+- [phapi/serializer-yaml](https://github.com/phapi/serializer-yaml) depends on [symfony/yaml](https://github.com/symfony/Yaml/).
 
 
 ## PHP settings
