@@ -13,6 +13,11 @@ The default settings file sets up the default <code>Request</code>, <code>Respon
 ## Overriding default settings
 Use the <code>app/configuration/settings.php</code> file to override any of the default settings. You should **not** edit anything in the <code>app/configuration/default/</code> directory.
 
+## Adding serializers and middleware
+The order of adding (de)serializers and middleware to the middleware pipeline is important. But there is no general rule since all middleware are different. Serializers and deserializers should be added after each other so that's a little bit easier to set up.
+
+**To help with this we've added a [suggested order](https://github.com/phapi/phapi-configuration/blob/master/app/configuration/middleware.php) in the [phapi/phapi-configuration](https://github.com/phapi/phapi-configuration/) project.**
+
 ## Logging
 By default no logging is set up, instead a "dummy" logger is configured.
 
