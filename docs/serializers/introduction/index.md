@@ -27,6 +27,7 @@ Phapi includes these serializers by default:
 - [JSON](/docs/serializers/json/)
 
 ### Extra
+- [XML](/docs/serializers/xml/)
 - [YAML](/docs/serializers/yaml/)
 
 ### Third party
