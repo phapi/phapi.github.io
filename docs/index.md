@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Documentation
 excerpt: Welcome to the documentation of the Phapi Framework. Learn more about how to configure, use and extend the framework.
 ---
