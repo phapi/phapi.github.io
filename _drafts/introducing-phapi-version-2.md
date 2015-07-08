@@ -1,5 +1,18 @@
+---
+title: Introducing Phapi version 2
+tags:
+  - psr7
+  - middleware
+  - documentation
+categories:
+  - news
+author: Peter
+---
+
 # Introducing Phapi version 2
 It's with great pleasure I'm able to introduce the second version of the Phapi Framework. Soon after the first version was released I realized that I wanted to make Phapi [PSR-7](http://www.php-fig.org/psr/psr-7/) compliant and use an middleware driven architecture. Version 1 did support middleware but the core application was no where nere an architecture that heavily relied on middleware.
+
+<!--more-->
 
 The [list of available middleware](/docs/middleware/introduction/) is short at the moment but this is a conscious decision. The core application consists of the functionality and features that's needed to create an API. But there are many more features that you might want to have, but since not everyone want or needs the same features these features will be developed as separate packages that can easily be installed when needed.
 
