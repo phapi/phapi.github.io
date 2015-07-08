@@ -7,3 +7,19 @@ url: "http://phapi.github.io"
 timezone: Europe/Stockholm
 markdown: redcarpet
 highlighter: none
+
+defaults:
+  -
+    scope:
+      path: "blog"
+      type: "posts"
+    values:
+      layout: "blog"
+      excerpt_separator: "<!--more-->"
+      permalink: "/blog/:title"
+  -
+    scope:
+      path: "docs"
+      type: "page"
+    values:
+      layout: "docs"
