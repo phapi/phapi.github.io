@@ -12,6 +12,9 @@ Cache providers are used through out the Phapi framework. It's for example used 
 
 ```php
 <?php
+// Retrieve the cache provider
+$cache = $this->container['cache'];
+
 // Add something to the cache
 $cache->set('test', 'value');
 
@@ -34,13 +37,11 @@ See the [implement your own cache provider](/docs/implement/cache/) section for 
 ## Existing cache providers
 The list of cache providers are currently quite slim but more providers will be added later on.
 
-### Included by default
-Phapi includes these cache providers by default:
-
-- [Memcache](/docs/cache/memcache/)
+Phapi does not include any Cache Providers by default.
 
 ### Extra
-There is currently no extra cache providers available.
+- [Memcache](/docs/cache/memcache/)
+- [Redis](/docs/cache/redis/)
 
 ### Third party
 There are currently no third party cache providers. [Get in contact](/contact/) if you have implemented one and want it listed here.

@@ -15,13 +15,14 @@ Here is a current list of packages with tests that does not pass on one or more 
 - [phapi/cache-memcache](https://github.com/phapi/cache-memcache) -  Fails on PHP 7. This package is however **not** installed by default.
 
 ## Dependencies
-There is one dependencies with the basic configuration.
+There is one dependency with the basic configuration.
 
 - [phapi/http](https://github.com/phapi/http) extends [zendframework/zend-diactoros](https://github.com/zendframework/zend-diactoros).
 
-There are however features and middleware that do have some dependencies. A list of these dependencies can be found here:
+There are however features and middleware that do have some other dependencies. A list of these dependencies can be found here:
 
 - [phapi/cache-memcache](https://github.com/phapi/cache-memcache) requires the [Memcache](http://php.net/manual/en/book.memcache.php) extension to be installed and working.
+- [phapi/cache-redis](https://github.com/phapi/cache-redis) requires the [Redis](http://redis.io) to be installed and working.
 - [phapi/serializer-yaml](https://github.com/phapi/serializer-yaml) depends on [symfony/yaml](https://github.com/symfony/Yaml/).
 
 
