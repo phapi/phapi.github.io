@@ -1,5 +1,6 @@
 ---
 title: Redis, YAML & XML
+permalink: /blog/redis-yaml-and-xml
 tags:
   - cache
   - serializers

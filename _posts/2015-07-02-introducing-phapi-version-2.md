@@ -1,5 +1,6 @@
 ---
 title: Introducing Phapi version 2
+permalink: /blog/introducing-phapi-version-2
 tags:
   - psr7
   - middleware
