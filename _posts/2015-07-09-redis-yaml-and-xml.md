@@ -8,7 +8,7 @@ author:
   name: Peter Ahinko
 ---
 
-In the last few days I've added two new serializers packages. This makes it really easy to add [YAML](/docs/serializers/yaml/) and [XML](/docs/serializers/xml/) support to your API. Besides the two serializers a [Redis Cache Provider](/docs/cache/redis/) package is also available. Redis is one of the fastest options available and it's rich features makes it a popular choice.
+In the last few days I've added two new serializers packages. This makes it really easy to add [YAML](http://phapi.github.io/docs/serializers/yaml/) and [XML](http://phapi.github.io/docs/serializers/xml/) support to your API. Besides the two serializers a [Redis Cache Provider](http://phapi.github.io/docs/cache/redis/) package is also available. Redis is one of the fastest options available and it's rich features makes it a popular choice.
 
 <!--more-->
 
