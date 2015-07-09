@@ -8,7 +8,7 @@ timezone: Europe/Stockholm
 markdown: redcarpet
 highlighter: none
 
-pages_list:       
+pages_list:
   Documentation: '/docs/'
   Contribute: '/docs/contributions/'
 
@@ -24,6 +24,6 @@ defaults:
   -
     scope:
       path: "docs"
-      type: "page"
+      type: "pages"
     values:
       layout: "docs"

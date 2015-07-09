@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Memcache
-excerpt: Do you want to use Memcache as your cache backend? Well then you have come to the right place
+excerpt: Do you want to use Memcache as your cache backend? Well then you have come to the right place.
 ---
 
 ## Memcache
