@@ -7,18 +7,21 @@ url: "http://phapi.github.io"
 timezone: Europe/Stockholm
 markdown: redcarpet
 highlighter: none
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 pages_list:
+  Blog: '/blog/'
   Documentation: '/docs/'
   Contribute: '/docs/contributions/'
 
 defaults:
   -
     scope:
-      path: "blog"
+      path: ""
       type: "posts"
     values:
-      layout: "blog"
+      layout: "post"
       excerpt_separator: "<!--more-->"
       permalink: "/blog/:title"
   -

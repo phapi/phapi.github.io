@@ -37,8 +37,25 @@ excerpt: PHP based framework aiming at rapid and simplified API development as w
       <p>Phapi has a <a href="/docs/middleware/introduction/">growing library</a> of middleware. Pick the middleware you need and install them fast and easily.</p>
     </div>
   </div>
+  <br />
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h2>Latest News</h2>
 
-  <br /><br />
+      {% for post in site.posts limit:3 %}
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
+        {{ post.excerpt }}
 
+        <p><a href="{{ post.url }}">
+          Read more...
+        </a></p>
+
+        <div class="divider"></div>
+      {% endfor %}
+
+      <div style="text-align: center;"><a href="/blog/">Older news</a> | Subscribe to <a href="/feed.xml">RSS</a></div>
+    </div>
+  </div>
 </div>
