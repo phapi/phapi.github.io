@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Cache providers
 excerpt: Learn more about how Cache providers can be used and why they exists
 ---

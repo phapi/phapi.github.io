@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Endpoints
 excerpt: It's the endpoints that serves the data to your clients
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Middleware
 excerpt:  The pipeline of your application
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Contributing
 excerpt: Contributions are highly appreciated, bugs and fixes as well as implementing new features, middleware, serializers and cache providers.
 ---

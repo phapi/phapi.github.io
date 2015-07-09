@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: XML Serializer
 excerpt: Serialize and deserialize middleware that handles request and response data formatted as XML
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Web servers
 excerpt: Learn how to configure your web server
 ---

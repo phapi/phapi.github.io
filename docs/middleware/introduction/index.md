@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Middleware
 excerpt: What is middleware and how does it work?
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Routes
 excerpt: Learn how to set up routes to your endpoints
 ---

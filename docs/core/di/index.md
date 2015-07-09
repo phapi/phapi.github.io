@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Dependency Injection Container
 excerpt: Inject your dependencies and handle configuration parameters
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Request & Response
 excerpt: How does the PSR-7 implementation work and how can we use it?
 ---

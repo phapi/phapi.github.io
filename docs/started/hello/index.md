@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Hello API
 excerpt: Last steps to get your "hello world" response working by creating your first endpoint and route.
 ---

@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Serializers
 excerpt: An introduction to how serializers work and how Phapi uses them
 ---

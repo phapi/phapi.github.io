@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Directory structure
 excerpt: Where should all the files go and what are all those directories doing?
 ---

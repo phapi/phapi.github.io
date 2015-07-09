@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Implementing serializers
 excerpt: Learn how to implement serializers and how to dramatically shorten the amount of time and code it takes to implement them
 ---

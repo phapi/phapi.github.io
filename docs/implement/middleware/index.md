@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Implementing middleware
 excerpt: Learn how to implement PSR-7 compliant middleware
 ---

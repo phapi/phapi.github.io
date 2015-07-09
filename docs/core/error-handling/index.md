@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Error handling
 excerpt: Some times we make mistakes, but how do we handle them?
 ---

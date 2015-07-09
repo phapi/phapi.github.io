@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Implementing Cache Providers
 excerpt: Learn how to implement the Cache Contract and how to handle problems while connecting to the cache backend
 ---

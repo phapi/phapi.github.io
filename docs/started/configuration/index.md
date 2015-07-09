@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Configuration
 excerpt: Learn how to configure your application
 ---

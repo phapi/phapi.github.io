@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Installation
 excerpt: What are the requirements and dependencies and how do you install Phapi?
 ---

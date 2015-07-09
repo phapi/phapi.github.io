@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: YAML Serializer
 excerpt: Serialize and deserialize middleware that handles request and response data formatted as YAML
 ---
