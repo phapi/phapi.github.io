@@ -1,3 +1,8 @@
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
 .navbar {
   margin-bottom: 0px;
 }
@@ -24,7 +29,7 @@
   text-align: center;
   height: 100%;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 .docs-header h1,
@@ -39,6 +44,7 @@
   font-weight: 300;
   margin-right: 350px;
   margin-bottom: 0px;
+  line-height: 1.5em
 }
 
 .firstpage-header p {
@@ -53,16 +59,27 @@
 .navbar-default .navbar-brand {
   font-weight: bold;
   color: #247871;
+  border-bottom: 0px;
+}
+
+.navbar .nav li {
+  font-size: 14px;
+}
+
+.navbar .nav li a {
+  border-bottom: 0px;
 }
 
 .navbar .nav .active a {
   background-color: #f7f7f7;
+  border-bottom: 0px;
 }
 
 .navbar .nav li a:hover,
 .navbar .nav .active a:hover {
   color: #247871;
   background-color: #fff;
+  border-bottom: 0px;
 }
 
 p {
@@ -72,10 +89,25 @@ p {
 .firstpage-header a {
   color: #fff;
   font-size: 20px;
+  border-bottom: 0px;
+}
+
+.firstpage-header a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
 a {
-  color: #0F5FB2;
+  color: #247871;
+  text-decoration: none;
+  border-bottom: 1px solid #74AE95;
+}
+
+a:hover {
+  color: #74AE95;
+  text-decoration: none;
+  border-bottom: 1px solid #247871;
 }
 
 ul .list-unstyled {
@@ -87,6 +119,7 @@ nav.doc-sidebar {
   padding-bottom: 30px;
   padding-right: 40px;
   border-right: 1px solid #f0f2f1;
+  font-size: 14px;
 }
 
 nav.doc-sidebar h4 {
@@ -98,6 +131,20 @@ div.highlight {
   margin-bottom: 20px;
 }
 
+.post-date {
+  color: rgb(154, 154, 154);
+  display: block;
+  font-size: 18px;
+  height: 27px;
+  line-height: 27px;
+  margin-bottom: 18px;
+  margin-top: -9px;
+}
+
+.post-title a {
+  border-bottom: 0px;
+}
+
 div.footer {
   border-top: 1px solid #eee;
   background-color: #fff;
@@ -105,4 +152,50 @@ div.footer {
   padding: 30px;
   text-align: center;
   color: #aaa;
+}
+
+.pagination {
+  overflow: hidden;
+  color: #ccc;
+  text-align: center;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.pagination-item {
+  float: left;
+  width: 50%;
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+
+.pagination-item:last-child {
+  margin-left: -1px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+span.pagination-item {
+
+}
+
+div.divider {
+  height: 1px;
+  border-bottom: 1px solid #efefef;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.first-page h2 {
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+  font-weight: normal;
+  color: #247871;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-top: 40px;
 }
