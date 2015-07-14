@@ -46,7 +46,9 @@ Phapi includes these middleware by default:
 - [Uuid](/docs/middleware/uuid/)
 
 ### Extra
-There are currently no extra middleware available.
+These middleware are developed by the Phapi team and therefor integrates well with the Phapi Framework. These middleware are not installed by default since they are not a requirement to have a working API nor are the functionality these middleware provide needed by everyone.
+
+- [HTTP Access Control (CORS)](/docs/middleware/cors)
 
 ### Third party
 There are currently no third party middleware. [Get in contact](/contact/) if you have implemented one and want it listed here.
