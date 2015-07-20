@@ -21,6 +21,7 @@ There is one dependency with the basic configuration.
 There are however features and middleware that do have some other dependencies. A list of these dependencies can be found here:
 
 - [phapi/cache-memcache](https://github.com/phapi/cache-memcache) requires the [Memcache](http://php.net/manual/en/book.memcache.php) extension to be installed and working.
+- [phapi/cache-memcached](https://github.com/phapi/cache-memcached) requires the [Memcached](http://php.net/manual/en/book.memcached.php) extension to be installed and working.
 - [phapi/cache-redis](https://github.com/phapi/cache-redis) requires the [Redis](http://redis.io) to be installed and working.
 - [phapi/serializer-yaml](https://github.com/phapi/serializer-yaml) depends on [symfony/yaml](https://github.com/symfony/Yaml/).
 

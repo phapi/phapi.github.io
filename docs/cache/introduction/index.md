@@ -40,6 +40,7 @@ Phapi does not include any Cache Providers by default.
 
 ### Extra
 - [Memcache](/docs/cache/memcache/)
+- [Memcached](/docs/cache/memcached/)
 - [Redis](/docs/cache/redis/)
 
 ### Third party
