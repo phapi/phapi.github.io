@@ -28,6 +28,7 @@ Phapi includes these serializers by default:
 ### Extra
 - [XML](/docs/serializers/xml/)
 - [YAML](/docs/serializers/yaml/)
+- [JSONP](/docs/serializers/jsonp/)
 
 ### Third party
 There are currently no third party serializers. [Get in contact](/contact/) if you have implemented one and want it listed here.
