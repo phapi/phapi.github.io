@@ -32,3 +32,28 @@ To make a placeholder optional, use a question mark **?**. See the fourth line i
 :c => :[a-zA-Z0-9+_-\.]+  # alnumnumeric and +-_. characters
 :h => :[a-fA-F0-9]+       # hex
 ```
+
+#### Get params in an Endpoint
+The router will inject the params in to the called method on the Endpoint. Lets use this route as an example:
+
+```php
+<?php
+$routes = [
+  '/users/{name:a}'         => '\\Phapi\\Endpoint\\User',
+];
+```
+
+If we want to get the <code>name</code> value from <code>/users/phapi</code> we need to specify an endpoint looking like this:
+
+```php
+<?php
+
+class User extends Endpoint {
+
+  public function get($name) // $name will contain 'phapi'
+  {
+    ...
+  }
+}
+
+```
