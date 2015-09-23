@@ -8,7 +8,7 @@ The [phapi/phapi-configuration](https://github.com/phapi/phapi-configuration) pr
 
 The first thing to do after you've downloaded and extracted the file is to install all dependencies (including the Phapi Framework) using composer:
 
-```shell
+```bash
 $ composer install
 ```
 

@@ -11,7 +11,7 @@ Redis is a cache package using [Redis](http://redis.io) as backend. Therefor [Re
 ## Installation
 The package is **not** installed by default by the Phapi framework. Add the package as a dependency in composer to install the package.
 
-```shell
+```bash
 $ composer require phapi/cache-redis:1.*
 ```
 

@@ -14,7 +14,7 @@ By default the supported mime types are: <code>application/javascript</code> and
 ## Installation
 This middleware is **not** included by default in the [Phapi Framework](https://github.com/phapi/phapi-framework) but if you need to install it it's available to install via [Packagist](https://packagist.org) and [Composer](https://getcomposer.org).
 
-```shell
+```bash
 $ php composer.phar require phapi/serializer-jsonp:1.*
 ```
 

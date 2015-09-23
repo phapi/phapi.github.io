@@ -22,7 +22,7 @@ By default no logging is set up, instead a "dummy" logger is configured.
 
 Lets set up [Monolog]() as the logger. First we need to add Monolog to composer:
 
-```shell
+```bash
 $ composer require monolog/monolog
 ```
 
@@ -56,7 +56,7 @@ Lets set up [memcached](http://www.memcached.org/) as our cache. First, install 
 
 Second, add [phapi/cache-memcache](https://github.com/phapi/cache-memcache) as a dependency.
 
-```shell
+```bash
 $ composer require phapi/cache-memcache
 ```
 

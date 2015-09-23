@@ -20,7 +20,7 @@ It depends on two things:
 ## Installation
 The package is **not** installed by default by the Phapi framework. Add the package as a dependency in composer to install the package.
 
-```shell
+```bash
 $ composer require phapi/cache-memcache:1.*
 ```
 
